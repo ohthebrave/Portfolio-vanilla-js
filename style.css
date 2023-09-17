@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(5, 5, 6);
+    background-color: aliceblue;
+}
+
+.detail {
+    /* height: 100vh; */
+    width: 100%;
+    
+}
+
+.header {
+    padding: 35px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header ul li {
+    display: inline-block;
+    padding: 0 20px;
+    margin-right: 20px;
+    position: relative;
+    font-size: 18px;
+ }
+.header h1{
+    padding-left: 50px;
+}
+.header a {
+    transition: all 0.3s ease;
+}
+
+#info {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    color: aliceblue;
+}
+#info h2 {
+    font-size: 50px;
+}
+#info p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 30px;
+}
+#content {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border: 1px solid #ddd;
+    
+}
+#content h2 {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.view {
+    border: 1px solid black;
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+}
+.view p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+.view h3 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.view img{
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.box-content {
+    display: flex;
+    justify-content: space-around;
+}
+.rainbow {
+    border: 1px solid black;
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+}
+.rainbow p {
+    padding-left: 20px;
+    
+}
+.rainbow h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.rainbow img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+    position: relative;
+    overflow: hidden;
+}
+#contact .box p {
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+#contact .box ul li {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+

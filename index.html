@@ -7,35 +7,41 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="box">
-                <h1>George Nyanjui</h1>
-                <ul>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Play ground</a></li>
-                </ul>
-            </div>
+    <div class="detail">
+        <nav class="header">
+            <h1>George Nyanjui</h1>
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Play ground</a></li>
+            </ul>
         </nav>
-    </header>
+    
     <section id="info">
         <div class="box">
-            <h2>Hello! I'm George Nyanjui</h2>
-            <p>As a Seasoned Developer, I'm passionate about solving problems.</p>
+            <h2>HELLO<br> <em>I'm George Nyanjui</em></h2>
+            <p class="para">As a Seasoned Developer, I'm passionate about solving problems and <br> I work to create interfaces that not only look great but also make users feel <br>like they're interacting with something truly special.</p>
         </div>
     </section>
     <section id="content">
-        <div class="box">
-            <h2>Portfolio</h2>
+        <h2>MY RECENT PROJECTS</h2>
+        <div class="box-content">
+            
             <!-- add section projects -->
             <div class="view">
-                <img src="" alt="">
-                <h3>Project</h3>
-                <p>Just a simple webiste</p>
+                <h3>CSS Graffiti</h3>
+                <img src="./graffiti.png" alt="setup">
+                <p>Imagine that you are walking down the street, and <br>you notice that there's a mural that has been painted <br> over with various graffiti tags. In reality, cleaning <br>this up could be a challenging feat; however, in CSS,<br> you have the power to manipulate the DOM with <br>just a line or two of code and to restore the mural to <br>its original look!</p>
+                <button type="button"><a href="https://github.com/ohthebrave/phase-0-css-graffiti-lab">VIEW PROJECT</a></button>
             </div>
             <!-- add more projects here -->
+            <div class="rainbow">
+                <h3>My Little Rainbow</h3>
+                <img src="./rainbow.png" alt="picture-rainbow">
+                <p>Making a rainbow with HTML div elements using <br> HTML elements, CSS styling, and CSS selectors.</p>
+                <button type="button"><span></span><a href="https://github.com/ohthebrave/phase-0-css-rainbow-lab">VIEW PROJECT</a></button>
+            </div>
         </div>
     </section>
     <section id="contact">
@@ -54,6 +60,7 @@
             <p>&copy; 2023 George Nyanjui</p>
         </div>
     </footer>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
